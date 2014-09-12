@@ -1,0 +1,398 @@
+<ui version="4.0" >
+ <class>Purchaser</class>
+ <widget class="QWidget" name="Purchaser" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="sizePolicy" >
+   <sizepolicy vsizetype="Preferred" hsizetype="Preferred" >
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>800</width>
+    <height>520</height>
+   </size>
+  </property>
+  <property name="font" >
+   <font>
+    <family>Arial</family>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
+  <property name="cursor" >
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle" >
+   <string/>
+  </property>
+  <widget class="QPushButton" name="actionButton" >
+   <property name="geometry" >
+    <rect>
+     <x>650</x>
+     <y>390</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string/>
+   </property>
+   <property name="default" >
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exitButton" >
+   <property name="geometry" >
+    <rect>
+     <x>650</x>
+     <y>450</y>
+     <width>120</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>Exit</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="companyEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>30</y>
+     <width>400</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="nameEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>140</y>
+     <width>400</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLabel" name="companyLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>191</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text" >
+    <string>COMPANY</string>
+   </property>
+   <property name="buddy" >
+    <cstring>companyEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="nameLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>Name</string>
+   </property>
+   <property name="buddy" >
+    <cstring>nameEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="addressEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>290</y>
+     <width>400</width>
+     <height>90</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cityLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>80</y>
+     <width>191</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font" >
+    <font>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text" >
+    <string>CITY</string>
+   </property>
+   <property name="buddy" >
+    <cstring>cityEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mobilLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>240</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>Mobil</string>
+   </property>
+   <property name="buddy" >
+    <cstring>mobilEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="telLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>Tel</string>
+   </property>
+   <property name="buddy" >
+    <cstring>telEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="taxnoLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>450</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>Tax No</string>
+   </property>
+   <property name="buddy" >
+    <cstring>taxnoEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="emailLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>400</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>E-mail</string>
+   </property>
+   <property name="buddy" >
+    <cstring>emailEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLabel" name="addressLabel" >
+   <property name="geometry" >
+    <rect>
+     <x>30</x>
+     <y>290</y>
+     <width>191</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="text" >
+    <string>Adress</string>
+   </property>
+   <property name="buddy" >
+    <cstring>addressEdit</cstring>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="mobilEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>240</y>
+     <width>400</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="telEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>190</y>
+     <width>400</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="taxnoEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>450</y>
+     <width>400</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="emailEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>400</y>
+     <width>400</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="sizePolicy" >
+    <sizepolicy vsizetype="Fixed" hsizetype="Fixed" >
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cityEdit" >
+   <property name="geometry" >
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>400</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>companyEdit</tabstop>
+  <tabstop>cityEdit</tabstop>
+  <tabstop>nameEdit</tabstop>
+  <tabstop>telEdit</tabstop>
+  <tabstop>mobilEdit</tabstop>
+  <tabstop>addressEdit</tabstop>
+  <tabstop>emailEdit</tabstop>
+  <tabstop>taxnoEdit</tabstop>
+  <tabstop>actionButton</tabstop>
+  <tabstop>exitButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
